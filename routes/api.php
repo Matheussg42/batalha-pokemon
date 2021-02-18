@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('pokemon/{id}', 'App\Http\Controllers\PokemonController@getPokemon');
+Route::post('batalha', 'App\Http\Controllers\BatalhaController@batalha');
